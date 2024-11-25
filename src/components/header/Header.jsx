@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-import Inicio from '../../pages/inicio/Inicio';
-import LivrosDoados from '../../pages/livrosDoados/LivrosDoados';
-import QueroDoar from '../../pages/queroDoar/QueroDoar';
+import Inicio from '../../pages/inicio/Inicio.jsx';
+import LivrosDoados from '../../pages/LivrosDoados/livrosDoados';
+import QueroDoar from '../../pages/QueroDoar/queroDoar';
 import logoLivro from '../../assets/logoLivro.png';
 import lupa from '../../assets/lupa.png';
 import s from './header.module.scss';
@@ -52,8 +52,8 @@ export default function Header() {
       </header>
       <Routes>
         <Route path="/" element={<Inicio />} />
-        <Route path="/livrosdoados" element={<LivrosDoados />} />
-        <Route path="/querodoar" element={<QueroDoar />} />
+        <Route path="/livrosDoados" element={<LivrosDoados />} />
+        <Route path="/queroDoar" element={<QueroDoar />} />
       </Routes>
     </BrowserRouter>
   );
