@@ -10,6 +10,8 @@
 .boxBooks{
     width: 85vw;
     height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
     article{
         border: solid 2px #005695;
         width: 15vw;
@@ -19,5 +21,6 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
+        border-radius: 15px;
     }
 }

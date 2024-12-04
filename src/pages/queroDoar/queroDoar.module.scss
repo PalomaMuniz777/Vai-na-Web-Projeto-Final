@@ -1,7 +1,6 @@
 .principal{
     height: 100vh;
     display: flex;
-    justify-items: center;
     justify-content: center;
 }
 
@@ -10,8 +9,7 @@
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
-
-    form{
+        form{
         border: solid 2px #005695;
         width: 25vw;
         height: 60vh;

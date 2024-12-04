@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 15vh; // Ajuste conforme necessário
+  height: 15vh; 
 }
 
 .logoHeader {
@@ -13,7 +13,7 @@
   align-items: center;
 
   img {
-    width: 20%; // Ajuste conforme necessário
+    width: 20%; 
   }
 
   h1 {
@@ -86,4 +86,38 @@
   .barraDeBusca input::placeholder {
     font-size: 1vw; // Redução proporcional
   }
+  .navHeader{
+    ul{
+      font-size: 1.6vw;
+    }
+  }
 }
+
+@media(max-width: 780px){
+  header{
+    flex-direction: column;
+    height: 25vh;
+    justify-content: space-evenly;
+  }
+
+  .barraDeBusca{
+    display: none;
+  }
+  .logoHeader{
+    width: 80%;
+    h1{
+      font-size: 25px;
+    }
+    img{
+      width: 70px;
+    }
+  }
+  .boxMenu{
+    width: 100%;
+    ul{
+      justify-content: space-between;
+      
+    }
+  }
+}
+

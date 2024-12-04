@@ -5,7 +5,7 @@ import linkedin from '../../assets/linkedin.png';
 import youtube from '../../assets/youtube.png';
 import S from './footer.module.scss';
 
-export default function Footer() {
+export default function footer() {
   return (
     <footer>
       <section className={S.boxSocial}>
